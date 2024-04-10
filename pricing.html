@@ -1,65 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=1, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="container">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
 
-    <div class="top">
-        <div class="toggle-btn">
-            <span>Annually</span>
-            <label  class="switch">
-                <input type="checkbox" id="checkbox" onclick="checkbox()">
-                <span style="margin:0.8em">monthly</span>
-            </label>
-        </div>
-    </div>
+    </head>
+    <body>
+        <div class="container">
 
+            <div class="top">
+                <div class="toggle-btn">
+                    <span style="margin:0.8em;">Annually</span>
+                    <label class="switch">
+                        <input type="checkbox" id="checkbox" onclick="check()">
+                        <span class="slider round"></span>
+                    </label>
+                    <span style="margin:0.8em;">monthly</span>
+                </div>
+            </div>
 
-    <div class="package-container">
-        <div class="package">
-            <h1 class="first">Basic</h1>
-            <h2 class="text1">&dollar; 9.99</h2>
-            <h2 class="text2">&dollar; 9.99</h2>
-            <ul class="list">
-                <li>2000 Subscribers</li>
-                <li>12000 Email/month</li>
-                <li>Multi-user Accounts</li>
-                <li>Email Support</li>
-            </ul>
-            <a href="#">Start Now</a>
+            <div class="package-container">
+                <div class="package">
+                    <h1 class="first">Basic</h1>
+                    <h2 class="text1">&dollar; 9.99</h2>
+                    <h2 class="text2">&dollar; 19.99</h2>
+                    <ul class="list">
+                        <li>2000 Subscribers</li>
+                        <li>12000 Email/month</li>
+                        <li>Multi-user Accounts</li>
+                        <li>Email Support</li>
+                    </ul>
+                    <a href="#">Start Now</a>
+                </div>
+                <div class="package">
+                    <h1 class="first">Proffesional</h1>
+                    <h2 class="text1">&dollar; 19.99</h2>
+                    <h2 class="text2">&dollar; 239.99</h2>
+                    <ul class="list">
+                        <li>Basic+</li>
+                        <li>Landing Pages</li>
+                        <li>Pop-up Forms</li>
+                        <li>Premium Support</li>
+                    </ul>
+                    <a href="#">Start Now</a>
+                </div>
+                <div class="package">
+                    <h1 class="first">Master</h1>
+                    <h2 class="text1">&dollar; 29.99</h2>
+                    <h2 class="text2">&dollar; 359.99</h2>
+                    <ul class="list">
+                        <li>Proffesional+</li>
+                        <li>Marketing</li>
+                        <li>Instagram Ads</li>
+                        <li>Facebook Ads</li>
+                    </ul>
+                    <a href="#" class>Start Now</a>
+                </div>
+            </div>
         </div>
-        <div class="package">
-            <h1 class="first">Proffesional</h1>
-            <h2 class="text1">&dollar; 19.99</h2>
-            <h2 class="text2">&dollar; 239.99</h2>
-            <ul class="list">
-                <li>Basic+</li>
-               <li>Landing Pages</li>
-               <li>Pop-up Forms</li>
-               <li>Premium Support</li>
-            </ul>
-            <a href="#">Start Now</a>
-        </div>
-        <div class="package">
-            <h1 class="first"></h1>
-            <h2 class="text1">&dollar; 29.99</h2>
-            <h2 class="text2">&dollar; 359.99</h2>
-            <ul class="list">
-               <li>Proffesional+</li>
-               <li>Marketing</li>
-               <li>Instagram Ads</li>
-               <li>Facebook Ads</li>
-            </ul>
-            <a href="#">Start Now</a>
-        </div>
+    <script src="script.js">
+//         function check()
+//         {
+//             var checkBox=document.getElementById("checkbox");
+//     var text1=document.getElementsByClassName("text1");
+// var  text2=document.getElementsByClassName("text2");
+// for (var i=0; i<text1.length; i++)
+// {
+//     if(checkBox.checked == true)
+//     {
+//         text1[i].style.display="block";
+//         text2[i].style.display="none";
+        
+//     }
+// }
+//         }
+        //  check();
+</script>
 
-    </div>
-</div>
-    
 </body>
 </html>
